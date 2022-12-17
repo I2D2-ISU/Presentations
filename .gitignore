@@ -43,3 +43,12 @@ vignettes/*.pdf
 
 # Data files in subfolders
 */data
+
+# Quarto compiled files in subfolders
+*/.quarto
+
+# Power Point Presentation
+*.pptx
+
+# Other individual files and folders
+/2021-09-22_MIECHV-I2D2-data-drive/materials/
