@@ -38,4 +38,8 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# R project files in subfolders
 */*.Rproj
+
+# Data files in subfolders
+*/data
