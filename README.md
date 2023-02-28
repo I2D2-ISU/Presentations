@@ -1,8 +1,7 @@
 # Presentations
 
 ### 2023
-- [**Iowa Data Drive**](https://I2D2-ISU.github.io/Presentations/embed.html): presentation for ECI Area Directors Meeting on IA Data Drive for navigating the dashboard 
-
+- [**Navigating Iowa Data Drive**](https://I2D2-ISU.github.io/Presentations/2023-02-08_Navigating-Iowa-Data-Drive/IDD_Presentation_280223.pdf): presentation for ECI Area Directors Meeting on IA Data Drive for navigating the dashboard ([click](https://I2D2-ISU.github.io/Presentations/2023-02-08_Navigating-Iowa-Data-Drive/embed.html) to open in slideshow)
 
 
 ### 2022
