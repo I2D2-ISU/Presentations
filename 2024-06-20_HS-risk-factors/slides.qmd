@@ -4,460 +4,450 @@ format: revealjs
 editor: visual
 ---
 
-## HS Risk Factors
-
-Total of 18 indicators selected
+## 18 Indicators Selected
 
 ::: {.fragment .fade-in}
--   1 for Future Consideration
+-   15 indicators from ECI
 
-    ::: {style="font-size:65%"}
-    -   Child Obesity
+    ::: {style="font-size:50%"}
+    -   4 based on I2D2 Individual Birth Risks
+    -   4 based on HHS Iowa Public Health Tracking Portal (3) and ECI Annual Report (1) data
+    -   3 based on DPS UCR data
+    -   2 based on Census ACS (1) and SAHIE (1) data
+    -   1 based on IWD LAUS data
+    -   1 based on ICA data
     :::
 :::
 
 ::: {.fragment .fade-in}
--   2 Time-Specific Indicators
+-   2 indicators from MIECHV
 
-    ::: {style="font-size:65%"}
-    -   Health and Dental Providers who Accept Medicaid
-    -   Quality Early Learning Environments
+    ::: {style="font-size:50%"}
+    -   1 based on DPS UCR data
+    -   1 based on Iowa DE data
     :::
 :::
 
 ::: {.fragment .fade-in}
--   3 I2D2 Indicators
+-   1 indicator from Iowa Data Center
 
-    ::: {style="font-size:65%"}
-    -   Individual Birth Risks
-    -   Cumulative Birth Risks
-    -   Unduplicated Counts of Preschool Participation
+    ::: {style="font-size:50%"}
+    -   1 based on Iowa Data Center
     :::
 :::
 
-## Updated ECI Indicators
+## List of HS Risk Indicators
 
 ::: columns
-::: {.column width="40%" style="font-size:85%"}
-1.  Low Birth Weight
-2.  Immunized Children
+::: {.column width="40%" style="font-size:80%; padding-top:50px;"}
+1.  Alcohol and Drug-Related Crime
+2.  Child Abuse and Neglect
 3.  Dental Services
-4.  Infant Mortality
+4.  Domestic Violence
 5.  Early Literacy Skills
-6.  Educational Attainment of Mothers
-7.  Incidence of Child Abuse
-8.  Teen Births
+6.  Foster Care
+7.  Health Coverage
+8.  High School Dropout
+9.  Homelessness
 :::
 
-::: {.column width="60%" style="font-size:85%"}
-9.  Domestic Violence Rate
-10. Unemployment Rate
-11. Children in Poverty
-12. Children with Health Coverage by Income Level
-13. Percent of All People in Poverty
-14. Homelessness count
-15. Availability of Child Care
-16. Working Parents
+::: {.column width="60%" style="font-size:80%; padding-top:50px;"}
+10. Inadequate Prenatal Care
+11. Infant and Child Death Rate
+12. Juvenile Arrest
+13. Low Birth Weight
+14. Low Maternal Education
+15. Poverty
+16. Serious Crime
+17. Teen Births
+18. Unemployment
 :::
 :::
 
-## Overarching Issues
+## Current Status
 
 <!-- icons downloaded from https://www.flaticon.com/ -->
 
-::: {layout="[1, 15]" style="font-size:125%; padding-top:50px;"}
-![](images/definition.png){widh="40"}
+::: {layout="[1, 15]" style="font-size:100%; padding-top:50px;"}
+![](images/data.png){widh="40"}
 
-**Definition** [(Low Birth Weight)]{style="font-size:75%; color:gray; float:right"}
+**Data** for each indicator are downloaded, cleaned; and indicators computed
 :::
 
-::: {layout="[1, 15]" style="font-size:125%"}
+::: {layout="[1, 15]" style="font-size:100%; padding-top:50px;"}
+![](images/definition.png){widh="40"}
+
+**Definition** for indicators are mostly established; however some clarification needed
+:::
+
+
+## Alcohol and Drug-Related Crime
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Alcohol or drug related crime rate per 1,000 people.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-**Details** [(Unemployment Rate)]{style="font-size:75%; color:gray; float:right"}
+Based on MIECHV indicator **"Alcohol and Drug-Related Crime"** 
 :::
 
-::: {layout="[1, 15]" style="font-size:125%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-**Data** [(Availability of Child Care)]{style="font-size:75%; color:gray; float:right"}
+**Iowa Department of Public Safety**  
+[The Uniform Crime Reporting (UCR) System](https://icrime.dps.state.ia.us/CrimeInIowa)
 :::
 
-## Low Birth Weight
 
-::: {style="padding-bottom:40px"}
-Percentage of babies born who weigh under 2,500 grams.
+## Child Abuse and Neglect
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Child abuse incidence rate per 1,000 for children 5 years and under.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/definition.png){widh="40"}
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**all** low birth weight live births
-
-low birth weight live **singleton** births that occur **at full term**
-:::
+Based on ECI indicator **"Incidence of Child Abuse"**
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**IDPH** [Vital Statistics of Iowa Annual Report](https://idph.iowa.gov/health-statistics/data)[^1]
-
-**IDPH** [Iowa Public Health Tracking Portal](https://tracking.idph.iowa.gov/People-Community/reproduction-and-birth/Low-Birthweight/Low-Birthweight-Births-Among-Full-Term-Births)
-:::
+**Iowa Department of Health and Human Services (HHS)**  
+[Child Abuse Statistics](https://hhs.iowa.gov/programs/CPS/child-abuse-statistics)
 :::
 
-[^1]: Last report available online is from 2020
-
-## Immunized Children
-
-::: {style="padding-bottom:40px"}
-Rate of Iowa's children immunized by age 2.
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/data.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**IDPH** [Iowa Immunization Program Annual Report](https://idph.iowa.gov/immtb/immunization/data-and-reports)[^2] or directly from the [Immunization Registry Information System](https://iris.iowa.gov/IRISPRDJ/clientSearch.do?language=en)
-
-**IDPH** [Iowa Public Health Tracking Portal](https://tracking.idph.iowa.gov/Health/Immunization/Childhood-Immunizations/Childhood-Immunization-Data)[^3]
-:::
-:::
-
-[^2]: Last report available online is from 2019, although ECI spreadsheet includes values from 2020
-
-[^3]: Our data is in complete agreement with those [reported by IDPH](https://tracking.idph.iowa.gov/Portals/14/userfiles/10/Immunization%20Summaries/2021%20Childhood%20Immunizations%20Data%20Summary.pdf)
 
 ## Dental Services
 
-::: {style="padding-bottom:40px"}
-Medicaid-enrolled children ages 0-5 who receive dental services.
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of Medicaid-enrolled children ages 0 to 5 who received dental services.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/data.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**EPSDT** Dental Services Report[^4]
-
-**IDPH** [Iowa Public Health Tracking Portal](https://tracking.idph.iowa.gov/Health/Oral-Health/Child-Dental-Services-Medicaid-Data)
-:::
-:::
-
-[^4]: Centers for Medicaid and Medicare Services (CMS) 416 Report; Agency: IDPH (via DHS)
-
-## Infant Mortality
-
-::: {style="padding-bottom:40px"}
-Infant mortality rate for every 1,000 live births[^5]
-:::
-
-[^5]: This is a new indicator, no previous data exist from ECI
-
-## Early Literacy Skills
-
-::: {style="padding-bottom:40px"}
-Percent of kindergartners meeting the Fall benchmark for the approved universal screening measure.
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/data.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**ECI** [Annual Report](https://earlychildhood.iowa.gov/annual-reports)[^6]
-
-**ECI** [Kindergarten Assessment Tables](https://earlychildhood.iowa.gov/document/kindergarten-assessment-tables)[^7]
-:::
-:::
-
-[^6]: Iowa Department of Education and its Student Information System are also mentioned as ECI's source
-
-[^7]: Contains suppressed data, which affects accuracy of our values
-
-## Educational Attainment of Mothers
-
-::: {style="padding-bottom:40px"}
-Women age 15-50 with a birth in the past 12 months by educational attainment.
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/definition.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**Number** of women
-
-**Percentage** of women[^8]
-:::
-:::
-
-[^8]: Note that data is not different and in both cases they come from ACS 5-year estimates.
-
-## Incidence of Child Abuse
-
-::: {style="padding-bottom:40px"}
-Child abuse incidence rate for children 5 years and under (per 1,000).
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-Different *denominator* used to estimate total number of children under 6
+Based on ECI indicator **"Dental Services"**
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**US Census** decennial data[^9]
-
-**ACS** 5-year estimates
-:::
+**Iowa Department of Health and Human Services (HHS)**  
+[Iowa Public Health Tracking Portal](https://hhs.iowa.gov/public-health/data/health/oral-health/child-dental-services-medicaid-data)
 :::
 
-[^9]: ECI gets this data from IDHS, instead of getting directly from the US Census.
-
-## Teen Births
-
-::: {style="padding-bottom:40px"}
-Births to mothers under age 20.
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/definition.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**Percent of all births to mothers under age 20**
-
-**Number of births born to women aged 15-19 per 1,000 women in this age range**
-:::
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
-![](images/data.png){widh="40"}
-
-::: {layout-ncol="2" style="font-size:75%"}
-**IDPH** [Vital Statistics of Iowa Annual Report](https://idph.iowa.gov/health-statistics/data)[^10]
-
-**IDPH** [Iowa Public Health Tracking Portal](https://tracking.idph.iowa.gov/people-community/Reproduction-and-Birth/Birth-Rate-Mothers-Under-20)
-:::
-:::
-
-[^10]: Last report available online is from 2020.
 
 ## Domestic Violence
 
-::: {style="padding-bottom:40px"}
-Domestic abuse rate (per 100,000).
+::: {style="padding-bottom:50px; padding-top:30px"}
+Rate of domestic abuse per 100,000 population.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-Different *denominator* might be used to estimate total population (**US Census** decennial vs **ACS** 5-year estimates)
+Based on ECI indicator **"Domestic Violence"**
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-Our total number of incidents (*numarator*) do not match with those in ECI spreadsheet, but is in complete agreement with those reported by Iowa DPS on [UCR portal](https://icrime.dps.state.ia.us/CrimeInIowa/Report/DomesticAbuseSummaryReport)[^11]
+**Iowa Department of Public Safety**  
+[The Uniform Crime Reporting (UCR) System](https://icrime.dps.state.ia.us/CrimeInIowa)
 :::
 
-[^11]: Data in Iowa UCR is only available from 2016.
 
-## Unemployment Rate
+## Early Literacy Skills
 
-::: {style="padding-bottom:40px"}
-Percent of unemployed persons.
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of kindergartners meeting the fall benchmark for the early literacy universal screening measure requirements.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**Unadjusted** counts
-
-**Adjusted** counts[^12]
-:::
+Based on ECI indicator **"Early Literacy Skills"**
 :::
 
-[^12]: In order to align with ECI's values, our calculation was changed (now based on unadjusted counts).
-
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-For some years our percentages do not match with those in ECI spreadsheet, but is in complete agreement with those reported by Iowa WorkForce Development on [the Local Area Unemployment Statistics tool](https://www.iowalmi.gov/local-area-unemployment-statistics)[^13]
+**Iowa Department of Health and Human Services (HHS)**  
+[ECI, Kindergarten Assessment Data](https://hhs.iowa.gov/programs/programs-and-services/eci)
 :::
 
-[^13]: Data in LAUS tool are often (retroactively) corrected, which might be a cause for observed differences.
 
-## Children in Poverty
+## Foster Care
 
-::: {style="padding-bottom:40px"}
-Percent of children under six years of age living in poverty (families with incomes below 100% of the U.S. poverty threshold).
+::: {style="padding-bottom:50px; padding-top:30px"}
+Rate of foster care children per 1,000 juvenile population.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-Different *denominator* might be used to estimate total number of children under 6
+Not part of ECI or MIECHV
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**US Census** decennial data[^14]
-
-**ACS** 5-year estimates
-:::
+**Iowa Department of Health and Human Services (HHS)**  
+[via Iowa Data Center](https://www.iowadatacenter.org/index.php/data-by-source/state-agencies/number-children-foster-care)
 :::
 
-[^14]: ECI gets the indicator from [Kids Count Data Center](http://www.datacenter.kidscount.org/), instead of getting data directly from the ACS.
 
-## Children with Health Coverage by Income Level
+## Health Coverage
 
-::: {style="padding-bottom:40px"}
-Number and percent of minor children with health coverage by income and poverty level[^15]
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of minor children with health coverage.
 :::
 
-[^15]: This is a new indicator, no previous data exist from ECI
-
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-**Poverty level** should be explicitly defined (SAHIE reports this data for 6 diffrent levels of poverty: \<= 138%, \<= 200%, \<= 250%, \<= 400%, 138% to 400%, and all incomes)[^16]
+Based on ECI indicator **"Children with Health Coverage"**
 :::
 
-[^16]: Our indicator currently is based on \<= 200% of Poverty.
-
-## All People in Poverty
-
-::: {style="padding-bottom:40px"}
-Percent of people living in poverty[^17]^,^[^18]
-:::
-
-[^17]: This is a new indicator, no previous data exist from ECI
-
-[^18]: Unlike other similar indicators this one, according to [**ECI Tool K(B)**](https://earlychildhood.iowa.gov/sites/default/files/documents/2021-11/Tool%20K%28B%29%20as%20of%2011-5-21.doc.pdf){preview-link="true" style="text-align: center"}, should be normalized using ACS 5-year estimates.
-
-## Homelessness Count
-
-::: {style="padding-bottom:40px"}
-Sheltered and unsheltered point in time counts of homeless individuals[^19]
-:::
-
-[^19]: This is a new indicator, no previous data exist from ECI
-
-## Availability of Child Care
-
-::: {style="padding-bottom:40px"}
-Number of "slots" or "spaces" potentially available for a child in a licensed or registered setting.
-:::
-
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**DHS** DCPDMAST Report
-
-**Iowa CCR&R** [Data Sheets](https://iowaccrr.org/data/)
-:::
+**US Census**  
+[Small Area Health Insurance Estimates (SAHIE)](https://www.census.gov/data-tools/demo/sahie/#/)
 :::
 
-## Working Parents
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/question.png){widh="40"}
 
-::: {style="padding-bottom:40px"}
-Percent of children under 6 years with all parents in the labor force.
+The ECI indicator is available for 2 poverty levels: all and < 200% FPL. We used the former for HS.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+
+## High School Dropout
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of students enrolled in grades 7-12 who dropped out.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/details.png){widh="40"}
 
-Different *denominator*[^20] might be used to estimate total number of children under six (**US Census** decennial vs **ACS** 5-year estimates)
+Based on MIECHV indicator **"High School Dropout"**
 :::
 
-[^20]: Denominator is not defined in the Tool K(B)
-
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-Our percentages from 2009 to 2014 do not match with those in ECI spreadsheet
+**Iowa Department of Education (DE)**  
+[PK-12 Education Statistics](https://educate.iowa.gov/pk-12/data/education-statistics/graduation-dropout-rates)
 :::
 
-## Quality Early Learning Environments
 
-::: {style="padding-bottom:40px"}
-Number of quality early learning environments that are NAEYC (National Association for the Education of Young Children) or NAFCC (National Association of Family Child Care) accredited and/or meet Head Start program performance standards, and/or verified QPPS sites, and/or have achieved a QRS level 4-5.
+## Homelessness
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Point in Time counts of sheltered and unsheltered homeless individuals per 10,000 population.
 :::
 
-::: {layout="[1, 15]" style="font-size:75%"}
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Homelessness"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
 ![](images/data.png){widh="40"}
 
-::: {layout-ncol="2" style="font-size:75%"}
-**ECI** Annual Report
-
-**QRS**\
-**NAEYC**
-:::
+**Institute for Community Alliances (ICA)**  
+[Point In Time](https://icalliances.org/pit)
 :::
 
-## Health and Dental Providers who Accept Medicaid
 
-::: {style="padding-bottom:40px"}
-Number of Dentists (general) and Pediatricians (specialization) that accept Medicaid for services.
+## Inadequate Prenatal Care
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of children with inadequate prenatal care.
 :::
 
-## Plots {.scrollable style="font-size:50%"}
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
 
-::: panel-tabset
-### All People Poverty
-
-![](images/IDD-vs-ECI-2022/all_people_poverty.png){fig-align="center" height="75%" width="75%"}
-
-### Child Abuse
-
-![](images/IDD-vs-ECI-2022/child_abuse.png){fig-align="center" height="75%" width="75%"}
-
-### Child Poverty
-
-![](images/IDD-vs-ECI-2022/child_poverty.png){fig-align="center" height="75%" width="75%"}
-
-### Childcare Availability
-
-![](images/IDD-vs-ECI-2022/childcare_availability_licensed.png){.border .border-thick} ![](images/IDD-vs-ECI-2022/childcare_availability_registerd.png){.border .border-thick}
-
-### Domestic Violence
-
-![](images/IDD-vs-ECI-2022/domestic_violence_rate.png){fig-align="center" height="75%" width="75%"}
-
-### Immunization
-
-![](images/IDD-vs-ECI-2022/immunization.png){fig-align="center" height="75%" width="75%"}
-
-### Mortality
-
-![](images/IDD-vs-ECI-2022/infant_mortality.png){fig-align="center" height="75%" width="75%"}
-
-### Early Literacy Skills
-
-![](images/IDD-vs-ECI-2022/k_assessment.png){fig-align="center" height="75%" width="75%"}
-
-### Low Birth Weight
-
-![](images/IDD-vs-ECI-2022/low_birth_weight.png){fig-align="center" height="75%" width="75%"}
-
-### Teen Birth
-
-![](images/IDD-vs-ECI-2022/teen_birth.png){fig-align="center" height="75%" width="75%"}
-
-### Unemployment Rate
-
-![](images/IDD-vs-ECI-2022/unemployment.png){fig-align="center" height="75%" width="75%"}
-
-### Working Parents
-
-![](images/IDD-vs-ECI-2022/working_parents.png){fig-align="center" height="75%" width="75%"}
+Based on ECI indicator **"Inadequate Prenatal Care"**
 :::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**I2D2**  
+Iowa Vital Statistics: Birth Records
+:::
+
+
+## Infant and Child Death Rate
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Rate of infant mortality per 1,000 live births.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Infant Mortality"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**Iowa Department of Health and Human Services (HHS)**  
+[Iowa Public Health Tracking Portal](https://hhs.iowa.gov/public-health/data/people/birth/infant-mortality)
+:::
+
+
+## Juvenile Arrest
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Rate of juvenile arrests per 100,000 estimated juvenile population.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Juvenile Arrests"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**Iowa Department of Public Safety**  
+[The Uniform Crime Reporting (UCR) System](https://icrime.dps.state.ia.us/CrimeInIowa)
+:::
+
+
+## Low Birth Weight
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of children born with low weight.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Low Birth Weight"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**I2D2**  
+Iowa Vital Statistics: Birth Records
+:::
+
+
+## Low Maternal Education
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of children with mothers having low education at birth.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Low Maternal Education"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**I2D2**  
+Iowa Vital Statistics: Birth Records
+:::
+
+
+## Poverty
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of children, under 6, who live in families with incomes below 100 percent of the U.S. poverty threshold, as defined by the U.S. Office of Management and Budget.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Children in Poverty"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**US Census**  
+[ACS 5-year estimates](https://hhs.iowa.gov/programs/CPS/child-abuse-statistics)
+:::
+
+
+## Serious Crime
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Rate of serious crime per 100,000 population.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Serious Crime"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**Iowa Department of Public Safety**  
+[The Uniform Crime Reporting (UCR) System](https://icrime.dps.state.ia.us/CrimeInIowa)
+:::
+
+
+## Teen Births
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of children born of teenage mothers.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Birth to Teenage Mother"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**I2D2**  
+Iowa Vital Statistics: Birth Records
+:::
+
+
+## Unemployment
+
+::: {style="padding-bottom:50px; padding-top:30px"}
+Percentage of unemployed persons.
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/details.png){widh="40"}
+
+Based on ECI indicator **"Unemployment"**
+:::
+
+::: {layout="[1, 15]" style="font-size:70%"}
+![](images/data.png){widh="40"}
+
+**Iowa Workforce Development**  
+[Local Area Unemployment Statistics](https://workforce.iowa.gov/labor-market-information/indicators/local)
+:::
+
+  
+## Available Data
+
+![](images/available_data.png){fig-align="center"}
+

@@ -13,7 +13,7 @@ hs_data_files <-
 
 
 # Read all data
-hs_ind_data <- map_df(hs_data_files, read_csv, col_types = cols(.default = "c")) 
+hs_ind_data <- map_df(hs_data_files, read_csv, col_types = cols(.default = "c"))
 
 
 # Available data years for each indicator
@@ -22,8 +22,8 @@ hs_ind_data %>%
   left_join(hs_inds_desc, by = join_by(indicator_name)) %>%
   ggplot(aes(x = YEAR, y = indicator_title)) +
   geom_point(col = "navyblue") +
-  labs(title = "Available Data Years",
-       x = NULL, 
+  labs(title = NULL, # "Available Data Years",
+       x = NULL,
        y = NULL) +
   scale_y_discrete(position = "right", limits = rev) +
   theme_light() +
@@ -31,9 +31,11 @@ hs_ind_data %>%
     axis.text.x = element_text(angle = 90, vjust = .5)
   )
 
+ggsave("images/available_data.png", width = 8, height = 5)
+
 
 i = 4
-fig <- 
+fig <-
   hs_ind_data %>%
   filter(indicator_name == hs_inds_desc$indicator_name[i],
          FIPS == 19) %>%
@@ -42,7 +44,7 @@ fig <-
   labs(title = hs_inds_desc$indicator_title[i],
        subtitle = hs_inds_desc$indicator_description[i],
        x = NULL) +
-  geom_col(fill = "slategray") + 
+  geom_col(fill = "slategray") +
   theme_light()
 if(hs_inds_desc$indicator_type[i] == "percent") {
   fig + scale_y_continuous(labels = scales::percent)
@@ -54,14 +56,14 @@ if(hs_inds_desc$indicator_type[i] == "percent") {
 my_df <-
   hs_ind_data %>%
   filter(indicator_name == hs_inds_desc$indicator_name[i]) %>%
-  filter(YEAR == max(YEAR)) 
+  filter(YEAR == max(YEAR))
 my_df %>%
   filter(FIPS != 19) %>%
   mutate(rank = as.numeric(county_rank),
          index = round(as.numeric(index), 2)) %>%
   ggplot(aes(y = reorder(county_name, rank), x = index)) +
-  geom_col(fill = "slategray") + 
-  geom_vline(xintercept = 
+  geom_col(fill = "slategray") +
+  geom_vline(xintercept =
                my_df %>%
                filter(FIPS == 19) %>%
                pull(index) %>% as.numeric(),
@@ -79,6 +81,6 @@ hs_ind_data %>%
   group_by(indicator_name) %>%
   filter(YEAR == max(YEAR)) %>%
   arrange(county_rank) %>%
-  head() 
+  head()
 
 
