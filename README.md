@@ -1,5 +1,8 @@
 # Presentations
 
+### 2024
+- [**HS Risk Factors 2024**](https://I2D2-ISU.github.io/Presentations/2024-06-20_HS-risk-factors/slides.html): presentated to **I2D2 Data Drive Meeting** on June 20, 2024 - about computing 18 HS indicators for risk factors
+
 ### 2023
 - [**Navigating Iowa Data Drive**](https://I2D2-ISU.github.io/Presentations/2023-02-08_Navigating-Iowa-Data-Drive/IDD_Presentation_280223.pdf): presentated to **ECI Area Directors Meeting** on February 28, 2023 - about how to navigate IA Data Drive dashboard
 
