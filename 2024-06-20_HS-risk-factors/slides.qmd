@@ -124,7 +124,7 @@ Based on ECI indicator **"Incidence of Child Abuse"**
 ## Dental Services
 
 ::: {style="padding-bottom:50px; padding-top:30px"}
-Percentage of Medicaid-enrolled children ages 0 to 5 who received dental services.
+Percentage of Medicaid-enrolled children ages 0 to 5 who did not receive dental services.
 :::
 
 ::: {layout="[1, 15]" style="font-size:70%"}
@@ -164,7 +164,7 @@ Based on ECI indicator **"Domestic Violence"**
 ## Early Literacy Skills
 
 ::: {style="padding-bottom:50px; padding-top:30px"}
-Percentage of kindergartners meeting the fall benchmark for the early literacy universal screening measure requirements.
+Percentage of kindergartners who did not meet the fall benchmark for the early literacy universal screening measure requirements.
 :::
 
 ::: {layout="[1, 15]" style="font-size:70%"}
@@ -204,7 +204,7 @@ Not part of ECI or MIECHV
 ## Health Coverage
 
 ::: {style="padding-bottom:50px; padding-top:30px"}
-Percentage of minor children with health coverage.
+Percentage of minor children with no health coverage.
 :::
 
 ::: {layout="[1, 15]" style="font-size:70%"}
